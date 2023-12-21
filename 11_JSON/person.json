@@ -1,0 +1,11 @@
+{
+   "firstName": "dee",
+   "lastName": "raj",
+   "age": 21,
+   "havePG": false,
+   "study": [
+      "12th",
+      "10th",
+      "UG"
+   ]
+}

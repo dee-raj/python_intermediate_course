@@ -1,0 +1,21 @@
+{
+   "firstName" : "dee",
+   "lastName" : "raj",
+   "hobbies" : ["running", "playing", "swimming", "coding"],
+   "age" : 21,
+   "havePG" : false,
+   "study" : [
+      {
+         "10th" : "saraswati ma vi",
+         "marks" : 86 
+      },
+      {
+         "12th" : "mount carmel",
+         "marks":85
+      },
+      {
+         "UG" : "vartak",
+         "marks" : 75
+      }
+   ]
+}

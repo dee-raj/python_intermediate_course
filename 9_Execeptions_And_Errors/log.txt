@@ -1,0 +1,6 @@
+LIMITATIONS OF CURRENT SYSTEM
+   1. In this project the AI playing chess game, not learning it. Means it can’t refer the previous game to play the current one.
+   2. There is no animation for Check; but can be guessed when you can’t move invalid pieces.
+   3. Pawn promotion for other than Queen is not implemented. 
+   4. To execute/ run the project you need to setup python along with ‘tkinter’ and ‘pygame’ libraries in your remote device.
+   5. The system may not support various game variations or customizations, such as different board themes or piece styles. 
