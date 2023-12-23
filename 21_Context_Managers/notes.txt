@@ -1,0 +1,3 @@
+email = knowsnobody698@gmail.com 
+pass = tycsrollno123 
+The attacker are targeting king first; so save king

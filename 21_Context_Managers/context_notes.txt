@@ -1,0 +1,1 @@
+please refere generator and decorator topics to get clear knowledge of this code

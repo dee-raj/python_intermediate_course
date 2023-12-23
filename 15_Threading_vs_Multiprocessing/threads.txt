@@ -1,0 +1,16 @@
+Threads: An entity within a process that can be scheduled (also known as "leightweight process")
+   A process can spawn multiple threads.
+
+Advantage:
+   + All threads within a process share the same memory
+   + Leightweight
+   + Starting a thread is faster than starting a process
+   + Great for I/O-bound tasks
+
+Disadvantages:
+   - Threading is limited bu GIL: only one thread at a time
+   - No effect for CPU-bound tasks
+   - Not interruptable / killable
+   - Careful with race conditions
+   Race conditions:
+      two or more threads want to modify the same variable at the same time
