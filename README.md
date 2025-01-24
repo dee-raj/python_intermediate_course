@@ -72,19 +72,55 @@ The project includes the following features:
 ## Folder Structure
 
 The project is organized into folders, each corresponding to a topic. The folder structure is as follows:
-python-intermediate-course/ 
-├── list/ │ ├── check_items.py │ ├── list_comprehencing.py │ └── … 
-├── tuples/ │ ├── ListVsTuple.py │ ├── tuple_methods.py │ └── … 
-├── dictionary/ │ ├── dictionary.py │ ├── methods.py │ └── … 
-├── sets/ │ ├── creating_set.py │ ├── methods.py │ └── … 
-├── string/ │ ├── formating.py │ ├── methods.py │ └── … 
-├── collections/ │ ├── counter.py │ ├── de_queue.py │ └── … 
-├── itertools/ │ ├── accumulate.py │ ├── combinations.py │ └── … 
-├── lambda_function/ │ ├── args.py │ ├── maping.py │ └── …
-├── exception_handling/ │ ├── try_with_else.py │ ├── raise_error.py │ └── … 
-├── logging/ │ ├── creating_my_logs.py │ ├── rotating_file_handler.py │ └── … 
-├── json/ │ ├── custom_obj.py │ ├── encoding_json.py │ └── … 
-└── README.md
+
+```
+python-intermediate-course/
+├── list/                     # Working with lists in Python
+│   ├── check_items.py         # Check for items in a list
+│   ├── list_comprehencing.py  # List comprehensions
+│   └── ...                    # Additional list-related scripts
+├── tuples/                   # Operations and methods for tuples
+│   ├── ListVsTuple.py         # Differences between lists and tuples
+│   ├── tuple_methods.py       # Tuple methods and usage
+│   └── ...
+├── dictionary/               # Dictionary operations
+│   ├── dictionary.py          # Basic dictionary operations
+│   ├── methods.py             # Dictionary methods
+│   └── ...
+├── sets/                     # Set operations
+│   ├── creating_set.py        # Creating and initializing sets
+│   ├── methods.py             # Set methods and examples
+│   └── ...
+├── string/                   # String operations and formatting
+│   ├── formating.py           # String formatting methods
+│   ├── methods.py             # String manipulation methods
+│   └── ...
+├── collections/              # Specialized container types
+│   ├── counter.py             # Using the Counter class
+│   ├── de_queue.py            # Using deque for efficient operations
+│   └── ...
+├── itertools/                # Itertools module utilities
+│   ├── accumulate.py          # Accumulating iterable values
+│   ├── combinations.py        # Generating combinations
+│   └── ...
+├── lambda_function/          # Using lambda functions
+│   ├── args.py                # Handling *args and **kwargs
+│   ├── maping.py              # Mapping with lambda functions
+│   └── ...
+├── exception_handling/       # Error and exception handling
+│   ├── try_with_else.py       # Try-else block usage
+│   ├── raise_error.py         # Raising custom exceptions
+│   └── ...
+├── logging/                  # Logging in Python
+│   ├── creating_my_logs.py    # Setting up basic logging
+│   ├── rotating_file_handler.py # Using rotating file handlers
+│   └── ...
+├── json/                     # Working with JSON
+│   ├── custom_obj.py          # Serializing custom objects
+│   ├── encoding_json.py       # Encoding data to JSON
+│   └── ...
+└── README.md                 # Project documentation
+```
 
 
 
@@ -105,5 +141,9 @@ The following resources were used in the development of this project:
 - Stack Overflow
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+bit-wise operation formula
+ - A << B = A * 2 ^ B 
+ - A >> B = A / 2 ^ B 
